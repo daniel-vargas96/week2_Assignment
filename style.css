@@ -1,0 +1,151 @@
+﻿
+/**** base styles ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001f3f
+}
+
+.style {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 200%;
+}
+
+h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div#container {
+    background-color: #FEFEFE;
+    position: relative;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+p {
+    border: 2px solid white;
+    width: 90%;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: black;
+    font-size: 100%;
+    padding: 3px;
+    padding-top: 30px
+}
+
+#p1 {
+    background-color: #3D9970;
+    font-size: 1em;
+}
+
+#p2 {
+    background-color: #85144b;
+    font-size: 1em;
+}
+
+#p3 {
+    background-color: #7FDBFF;
+    font-size: 1em;
+}
+
+h2 {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    float: right;
+    color: black;
+    font-size: 100% font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    top: 28px;
+}
+
+#h1 {
+    color: white;
+    background-color: #C9F8F7;
+    width: 50%;
+    height: 50%;
+    font-size: 1.1em
+}
+
+#h2 {
+    background-color: #FBDAB8;
+    width: 50%;
+    height: 50%;
+    font-size: 1.1em
+}
+
+#h3 {
+    background-color: #D3FBDB;
+    width: 50%;
+    height: 50%;
+    font-size: 1.1em
+}
+
+
+
+/***** large devices *****/
+@media (min-width:992px) {
+    .col-lg-4 {
+        float: left;
+        border: 1px black;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/***** medium devices *****/
+@media (min-width:768px) and (max-width: 991px) {
+    .col-mg-2 {
+        float: left;
+        border: 1px black;
+    }
+
+    .col-mg-2 {
+        width: 50%;
+    }
+
+    .col-mg-12 {
+        float: left;
+        border: 1px black;
+    }
+
+    .col-mg-12 {
+        width: 100%;
+    }
+}
+
+/***** small devices *****/
+@media (max-width: 767px) {
+    .col-sg-12 {
+        float: left;
+        border: 1px black;
+    }
+
+    .col-sg-12 {
+        width: 100%;
+    }
+}
